@@ -1,0 +1,36 @@
+.about{
+    height: 100vh;
+    
+}
+
+.about h1{
+     margin: auto;
+     padding-top: 30%;
+     padding-left: 45%;
+}
+
+.description{
+    margin-top: 20%;
+    height: 100vh;
+    width: 100%;
+    /* background-color: gray; */
+    display: block;
+}
+
+.logo{
+    width: 50%;
+    background-color: tomato;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+
+.paragraph{
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: right;
+    font-size: larger;
+    color: rgb(58, 56, 56);
+    font-weight: bold;
+}

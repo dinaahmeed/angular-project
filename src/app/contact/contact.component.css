@@ -1,0 +1,45 @@
+.contact{
+    height: 100vh;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.contact h1{
+margin-left: 45%;
+}
+
+.contact p{
+    padding-top: 5%;
+   padding-left: 30%;
+   font-size: larger;
+   font-weight: 500;
+}
+
+.contact-data{
+    height: 100vh;
+}
+
+.contact-data input{
+    text-align: right;
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    box-shadow: 2px 2px;
+}
+
+.contact-data button{
+    width: 15%;
+    margin: auto;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
+textarea{
+    text-align: right;
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    box-shadow: 2px 2px;  
+    color: rgb(104, 103, 103);
+}

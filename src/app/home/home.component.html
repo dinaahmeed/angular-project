@@ -1,0 +1,33 @@
+
+         <div class="elec-book">
+              <button class="button2 form-control">
+                تسجيل الدخول
+              </button>
+                </div>
+                
+           
+        
+
+         <div class="new-books">
+            <h2>الكتب حديثة الإصدار</h2>
+            <p>تنشر أكثر من 1000 كتاب يوميا من قبلمئات الكتاب المختلفين.</p>
+            <div class="container">
+              <div class="row">
+                <div *ngFor="let trending of trendingbooks" class="new col-md-4 ">
+                  <div class="books">
+                    <h5>{{trending.bookName}}</h5>
+                    <h5>{{trending.authorName}}</h5>
+                    <h5>{{trending.price}}</h5>
+
+                    <img class="w-100" [src]="posterPrifix+trending.image">
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+             
+         
+    
+       
+        
+   
